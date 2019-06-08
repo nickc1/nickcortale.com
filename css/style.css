@@ -1,0 +1,11 @@
+.circle {
+    opacity: 0.5;
+    fill: #ccc;
+    stroke: steelblue;
+    r: 3px;
+  }
+  
+  .track {
+    fill: none;
+    stroke: url("#line-gradient");
+  }
