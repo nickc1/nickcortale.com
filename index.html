@@ -1,175 +1,180 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal website of Nick Cortale - Data Science and Analytics Manager at Live Oak Bank">
+    <meta name="author" content="Nick Cortale">
+    
+    <title>Nick Cortale - Data Science & Analytics</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/d3.min.js"></script>
-    <title>Cortale</title>
   </head>
-  <body class="mb-5">
-
-    <div class="container col-12 col-md-4">
-      <div class="row mt-5 justify-content-center" id="d3div"></div>
-      <div class="row mt-2 justify-content-center text-center">
-        <h1>Nick Cortale</h1>
-      </div>
-      <div class="row mt-5 justify-content-center">
-        <div class="col text-center">
-          <a href="https://github.com/nickc1">Github</a></div>
-        <div class="col text-center">
-          <a href="http://nickc1.github.io/">Blog</a></div>
-        <div class="col text-center">
-          <a href="https://www.linkedin.com/in/nick-cortale">LinkedIn</a></div>
-        <div class="col text-center">
-          <a href="https://scholar.google.com/citations?user=k_FVDXkAAAAJ&hl=en">Scholar</a></div>
-      </div>
-    </div>
-
-    <div class="container col-10 col-md-4 mt-5">
-      <hr/>
-      <h6>ABOUT</h6>
-      <p>
-        I currently manage the Data Science and Analytics team at <a href="https://www.liveoakbank.com">Live Oak Bank</a>.
-      </p>
-      <p>
-        On the management side, I'm interested in things like <a href="https://www.youtube.com/watch?v=Dbr8jmtfZ7Q">metric trees</a> 
-        and <a href="https://en.wikipedia.org/wiki/Systems_thinking">systems thinking</a> to organize a company's data projects.
-      </p>
-      <p></p>
-        On the data science side, I'm interested in simple models and analyses that solve concrete business problems.
-      </p>
-
-    </div>
-    <div class="container col-10 col-md-4 mt-5">
-      <hr/>
-      <h6>CODE</h6>
-
-      <div class="mt-4">
-        <a class="align-text-bottom" href="https://github.com/nickc1/skccm">
-          <h6>skccm</h6>
-        </a> 
-        <a 
-          class="github-button" 
-          href="https://github.com/nickc1/skccm"
-          data-show-count="true" 
-          aria-label="Star nickc1/skedm on GitHub">
-          Star
-        </a>
-        <p>
-          An implementation of convergent cross mapping with the familiar api of 
-          scikit-learn.
-        </p>
-      </div> 
-
-
-      <div class="mt-4">
-        <a class="align-text-bottom" href="https://github.com/nickc1/skedm">
-          <h6>skedm</h6>
-        </a> 
-        <a 
-          class="github-button" 
-          href="https://github.com/nickc1/skedm"
-          data-show-count="true" 
-          aria-label="Star nickc1/skedm on GitHub">
-          Star
-        </a>
-        <p>
-          Published in the Journal of Open Source Software, skedm is an implementation 
-          of empirical dynamic modeling with the familiar api of scikit-learn.  
-        </p>
-      </div>
-      
-      <div class="mt-4">
-        <a class="align-text-bottom" href="https://github.com/nickc1/skccm">
-          <h6>seebuoy</h6>
-        </a> 
-        <a 
-          class="github-button" 
-          href="https://github.com/nickc1/seebuoy"
-          data-show-count="true" 
-          aria-label="Star nickc1/skedm on GitHub">
-          Star
-        </a>
-        <p>
-          An interface to the National Data Buoy Center's data.
-        </p>
-      </div> 
-
-      <div class="mt-4">
-        <a class="align-text-bottom" href="https://github.com/nickc1/sklearn_fastapi">
-          <h6>sklearn_fastapi</h6>
-        </a> 
-        <a 
-          class="github-button" 
-          href="https://github.com/nickc1/sklearn_fastapi"
-          data-show-count="true" 
-          aria-label="Star nickc1/sklearn_fastapi on GitHub">
-          Star
-        </a>
-        <p>
-          A docker based project layout for deploying scikit-learn models as an API endpoint.
-        </p>
-      </div> 
-    
-    </div>
-    
-    <div class="container col-10 col-md-4 mt-5">
-      <hr/>
-      <h6>PUBLICATIONS</h6>
-
-      <div class="mt-4">
-        <a 
-          class="align-text-bottom" 
-          href="https://aip.scitation.org/doi/abs/10.1063/1.4931801">
-          <h6>Nonlinear forecasting of intertidal shoreface evolution</h6>
-        </a>
-        <p class="font-italic">Chaos: An Interdisciplinary Journal of Nonlinear Science </p>
-        <p>
-          Methods in nonlinear time series forecasting and genetic programming applied
-          to these data corroborate that coastal morphology at these scales is predominately
-          driven by nonlinear internal dynamics, which partially mask external forcing signatures.
-          <a href="papers/intertidal_evolution.pdf"> PDF </a>
-        </p>
-      </div>
-      <div class="mt-4">
-        <a 
-          class="align-text-bottom" 
-          href="https://www.theoj.org/joss-papers/joss.00207/10.21105.joss.00207.pdf">
-          <h6>skedm: Empirical Dynamic Modeling</h6>
-        </a>
-        <p class="font-italic">The Journal of Open Source Software</p>
-        <p>
-          This python package implements nonlinear time series analysis techniques,
-          also referred to as empirical dynamic modeling, based on many of the workflows
-          and routines within TISEAN (Hegger and Schreiber 1999) and (Ye et al. 2017).
-        </p>
-      </div>
-      <div class="mt-4">
-        <a 
-          class="align-text-bottom" 
-          href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2019.0047">
-          <h6>Insights into coral reef benthic dynamics from nonlinear spatial forecasting.</h6>
-        </a>
-        <p class="font-italic">The Royal Society</p>
-        <p>
-          Here, we adjust spatial forecasting to handle discrete data and apply a nonlinear
-          forecasting technique to explore the ubiquity of nonlinear determinism in irregular
-          spatial configurations of coral and algal taxa from Palmyra Atoll, a relatively
-          pristine reef in the central Pacific Ocean.
-          <a href="papers/coral_reef_dynamics.pdf"> PDF </a>
-        </p>
-      </div>
   
-    
-    </div>
+  <body>
+    <header class="container header-section">
+      <div class="visualization-container" id="d3div"></div>
+      
+      <h1 class="text-center">Nick Cortale</h1>
+      
+      <nav class="social-links">
+        <a href="https://github.com/nickc1" aria-label="Visit Nick's GitHub profile">Github</a>
+        <a href="http://nickc1.github.io/" aria-label="Visit Nick's Blog">Blog</a>
+        <a href="https://www.linkedin.com/in/nick-cortale" aria-label="Connect with Nick on LinkedIn">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=k_FVDXkAAAAJ&hl=en" aria-label="View Nick's academic publications">Scholar</a>
+      </nav>
+    </header>
 
+    <main class="container main-content">
+      <section id="about" class="content-section">
+        <h2 class="section-title">ABOUT</h2>
+        <div class="section-content">
+          <p>I currently manage the Data Science and Analytics team at <a href="https://www.liveoakbank.com">Live Oak Bank</a>.</p>
+          <p>On the management side, I'm interested in things like <a href="https://www.youtube.com/watch?v=Dbr8jmtfZ7Q">metric trees</a> 
+            and <a href="https://en.wikipedia.org/wiki/Systems_thinking">systems thinking</a> to organize a company's data projects.</p>
+          <p>On the data science side, I'm interested in simple models and analyses that solve concrete business problems.</p>
+        </div>
+      </section>
 
-    <!-- Place this tag in your head or just before your close body tag. -->
+      <section id="code" class="content-section">
+        <h2 class="section-title">CODE</h2>
+        <div class="section-content">
+          <article class="project-item">
+            <div class="project-header">
+              <h3><a href="https://github.com/nickc1/skccm">skccm</a></h3>
+              <a class="github-button" href="https://github.com/nickc1/skccm" 
+                 data-show-count="true" aria-label="Star nickc1/skccm on GitHub">Star</a>
+            </div>
+            <p>An implementation of convergent cross mapping with the familiar api of scikit-learn.</p>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3><a href="https://github.com/nickc1/skedm">skedm</a></h3>
+              <a class="github-button" href="https://github.com/nickc1/skedm" 
+                 data-show-count="true" aria-label="Star nickc1/skedm on GitHub">Star</a>
+            </div>
+            <p>Published in the Journal of Open Source Software, skedm is an implementation 
+               of empirical dynamic modeling with the familiar api of scikit-learn.</p>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3><a href="https://github.com/nickc1/seebuoy">seebuoy</a></h3>
+              <a class="github-button" href="https://github.com/nickc1/seebuoy" 
+                 data-show-count="true" aria-label="Star nickc1/seebuoy on GitHub">Star</a>
+            </div>
+            <p>An interface to the National Data Buoy Center.</p>
+          </article>
+
+          <article class="project-item">
+            <div class="project-header">
+              <h3><a href="https://github.com/nickc1/sklearn_fastapi">sklearn_fastapi</a></h3>
+              <a class="github-button" href="https://github.com/nickc1/sklearn_fastapi" 
+                 data-show-count="true" aria-label="Star nickc1/sklearn_fastapi on GitHub">Star</a>
+            </div>
+            <p>A docker based project layout for deploying scikit-learn models as an API endpoint.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="content-section">
+        <h2 class="section-title">PUBLICATIONS</h2>
+        <div class="section-content">
+          <article class="publication-item">
+            <div class="publication-thumb">
+              <img src="images/benthic_dynamics.png" 
+                   alt="Visualization of coral reef benthic dynamics research" 
+                   class="img-fluid">
+            </div>
+            <div class="publication-content">
+              <h3>
+                <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2019.0047">
+                  Insights into Coral Reef Benthic Dynamics from Nonlinear Spatial Forecasting
+                </a>
+              </h3>
+              <p class="journal">The Royal Society</p>
+              <p>We adjust spatial forecasting to handle discrete data and apply a nonlinear
+                 forecasting technique to explore nonlinear determinism in spatial configurations of 
+                 coral and algal taxa from Palmyra Atoll, a pristine reef in the central Pacific Ocean.
+                 <a href="papers/coral_reef_dynamics.pdf" aria-label="Download PDF of coral reef dynamics paper">PDF</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="publication-thumb">
+              <img src="images/skedm.png" 
+                   alt="Visualization of skedm empirical dynamic modeling" 
+                   class="img-fluid">
+            </div>
+            <div class="publication-content">
+              <h3>
+                <a href="https://www.theoj.org/joss-papers/joss.00207/10.21105.joss.00207.pdf">
+                  skedm: Empirical Dynamic Modeling
+                </a>
+              </h3>
+              <p class="journal">The Journal of Open Source Software</p>
+              <p>This python package implements nonlinear time series analysis techniques,
+                 also referred to as empirical dynamic modeling. It is based on many of the workflows
+                 and routines within TISEAN (Hegger and Schreiber 1999) and (Ye et al. 2017).</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="publication-thumb">
+              <img src="images/nonlinear_forecasting.png" 
+                   alt="Visualization of intertidal shoreface evolution research" 
+                   class="img-fluid">
+            </div>
+            <div class="publication-content">
+              <h3>
+                <a href="https://aip.scitation.org/doi/abs/10.1063/1.4931801">
+                  Nonlinear forecasting of intertidal shoreface evolution
+                </a>
+              </h3>
+              <p class="journal">Chaos: An Interdisciplinary Journal of Nonlinear Science</p>
+              <p>Methods in nonlinear time series forecasting and genetic programming applied
+                 to these data corroborate that coastal morphology at these scales is predominately
+                 driven by nonlinear internal dynamics, which partially mask external forcing signatures.
+                 <a href="papers/intertidal_evolution.pdf" aria-label="Download PDF of intertidal evolution paper">PDF</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <div class="publication-thumb">
+              <img src="images/thesis.png" 
+                   alt="Cover image of master's thesis" 
+                   class="img-fluid">
+            </div>
+            <div class="publication-content">
+              <h3>
+                <a href="https://github.com/nickc1/thesis/blob/master/thesis.pdf">
+                  Quantifying Determinism in Coral Reefs and Coastal Zones
+                </a>
+              </h3>
+              <p class="journal">Master's Thesis</p>
+              <p>Here, we adjust spatial forecasting to handle discrete data and apply a nonlinear
+                 forecasting technique to explore the ubiquity of nonlinear determinism in irregular
+                 spatial configurations of coral and algal taxa from Palmyra Atoll, a relatively
+                 pristine reef in the central Pacific Ocean.
+                 <a href="papers/coral_reef_dynamics.pdf" aria-label="Download PDF of thesis">PDF</a>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/d3.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="js/lorenz.js"></script>
   </body>
